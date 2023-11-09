@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    min-height: 100vh;
+}
+
+header{
+    background-color: black;
+    height: 150px;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+#titulo{
+    font-variant: small-caps;
+    font-size: 3em;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+    font-family: cursive;
+}
+
+.normal{
+    background-color:white;
+    color: black;
+}
+
+.imagem{
+    background-color: grey;
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.438);
+    background-attachment: fixed;
+}
+
+.imagem > p{
+    background-color: rgba(0, 0, 0, 0.418);
+    width: 300px;
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;
+}
+
+#imagem1{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+
+#imagem2{
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;
+    background-size: cover;
+}
